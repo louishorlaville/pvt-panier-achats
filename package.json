@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "gh-deploy": "^0.2.3",
     "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preghdeploy": "npm run build",
+    "ghdeploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://cdem.github.io/panier-achats-pvt-gr2/"
 }
