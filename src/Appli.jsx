@@ -1,4 +1,4 @@
-import './Appli.css';
+import './Appli.scss';
 import Entete from './Entete.jsx';
 import ListeProduits from './ListeProduits';
 import PiedDePage from './PiedDePage';

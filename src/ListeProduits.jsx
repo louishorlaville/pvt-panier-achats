@@ -1,4 +1,4 @@
-import './ListeProduits.css';
+import './ListeProduits.scss';
 import Produit from "./Produit";
 import tabProduits from './data/produits.json';
 
@@ -9,9 +9,9 @@ export default function ListeProduits(props) {
   console.log(tabDouble);
 
   return (
-    <>
+    <div className="ListeProduits">
       <h2>Produits disponibles</h2>
-      <ul className="ListeProduits">
+      <ul>
         {/* On va générer les produits à partir de la 
           structure obtenue du fichier JSON des produits */}
         
@@ -19,6 +19,6 @@ export default function ListeProduits(props) {
          <Produit key={prd.id} nom={prd.nom} prix={prd.prix} id={prd.id} />
         )}
       </ul>
-    </>
+    </div>
   );
 }
