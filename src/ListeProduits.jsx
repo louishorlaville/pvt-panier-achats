@@ -4,9 +4,9 @@ import tabProduits from './data/produits.json';
 
 export default function ListeProduits(props) {
 
-  let tab = [1,2,3];
-  let tabDouble = tab.map(x => 2*x);
-  console.log(tabDouble);
+  // let tab = [1,2,3];
+  // let tabDouble = tab.map(x => 2*x);
+  // console.log(tabDouble);
 
   return (
     <div className="ListeProduits">
