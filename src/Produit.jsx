@@ -18,7 +18,7 @@ export default function Produit(props) {
       panier[id].qte++;
     }
     else {
-      panier[id] = {prix: prix, qte: 1}
+      panier[id] = {nom: nom, prix: prix, qte: 1}
     }
     //console.log("Le panier d'achats (Objet) : ",panier);
     //console.log("Le panier d'achats (Tab des valeurs", Object.values(panier));
