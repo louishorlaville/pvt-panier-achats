@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/louishorlaville/pvt-panier-achats/static/css/main.10400018.chunk.css",
+    "main.js": "/louishorlaville/pvt-panier-achats/static/js/main.081ae3f6.chunk.js",
+    "main.js.map": "/louishorlaville/pvt-panier-achats/static/js/main.081ae3f6.chunk.js.map",
+    "runtime-main.js": "/louishorlaville/pvt-panier-achats/static/js/runtime-main.b7c901f0.js",
+    "runtime-main.js.map": "/louishorlaville/pvt-panier-achats/static/js/runtime-main.b7c901f0.js.map",
+    "static/js/2.4a5fe2f7.chunk.js": "/louishorlaville/pvt-panier-achats/static/js/2.4a5fe2f7.chunk.js",
+    "static/js/2.4a5fe2f7.chunk.js.map": "/louishorlaville/pvt-panier-achats/static/js/2.4a5fe2f7.chunk.js.map",
+    "index.html": "/louishorlaville/pvt-panier-achats/index.html",
+    "static/css/main.10400018.chunk.css.map": "/louishorlaville/pvt-panier-achats/static/css/main.10400018.chunk.css.map",
+    "static/js/2.4a5fe2f7.chunk.js.LICENSE.txt": "/louishorlaville/pvt-panier-achats/static/js/2.4a5fe2f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7c901f0.js",
+    "static/js/2.4a5fe2f7.chunk.js",
+    "static/css/main.10400018.chunk.css",
+    "static/js/main.081ae3f6.chunk.js"
+  ]
+}
