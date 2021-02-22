@@ -1,9 +1,13 @@
 import './Appli.scss';
 import {useState} from 'react';
+import { Route, Switch } from 'react-router-dom';
 import useLocalStorageState from './hooks/useLocalStorageState';
 import Entete from './Entete.jsx';
 import ListeProduits from './ListeProduits';
 import PiedDePage from './PiedDePage';
+import Contact from './Contact';
+import Apropos from './Apropos'
+import Accueil from './Accueil'
 
 export default function Appli() {
   const [compteur, setCompteur] = useState(0);
@@ -34,8 +38,16 @@ export default function Appli() {
     <div className="Appli">
       <Entete etatPanier={etatPanier} />
       <section className="contenuPrincipal">
-        <button onClick={() => setCompteur(compteur + 1)}>Compteur ({compteur})</button>
-        <ListeProduits etatPanier={etatPanier} />
+        <Switch>
+          <Route path="/" component={Accueil} exact/>
+          <Route path="/nos-produits">
+            <ListeProduits etatPanier={etatPanier}/>
+          </Route>
+          <Route path="/a-propos">
+            <Apropos/>
+          </Route>
+          <Route path="/contactez-nous" component={Contact}/>
+        </Switch>
       </section>
       <PiedDePage />
     </div>
